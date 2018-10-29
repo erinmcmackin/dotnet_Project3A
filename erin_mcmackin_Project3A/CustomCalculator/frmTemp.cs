@@ -164,6 +164,11 @@ namespace CustomCalculator
                 txtOrigTemp.Focus();
 
             }
+            catch (FormatException)
+            {
+                MessageBox.Show("Temperature must be a numeric value", "Entry Error");
+                txtOrigTemp.Focus();
+            }
 
 
         }
