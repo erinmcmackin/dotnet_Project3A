@@ -169,7 +169,11 @@ namespace CustomCalculator
                 MessageBox.Show("Temperature must be a numeric value", "Entry Error");
                 txtOrigTemp.Focus();
             }
-
+            catch (OverflowException)
+            {
+                MessageBox.Show("An overflow exception has occurred. Please enter a smaller value.");
+                txtOrigTemp.Focus();
+            }
 
         }
 
