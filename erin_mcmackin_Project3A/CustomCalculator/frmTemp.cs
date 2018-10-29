@@ -181,5 +181,40 @@ namespace CustomCalculator
         {
             this.Close();
         }
+
+        private void btnDivide_Click(object sender, EventArgs e)
+        {
+            decimal resultNum = 0;
+
+            try
+            {
+                decimal divNum = Convert.ToDecimal(txtDivide.Text);
+                decimal byNum = Convert.ToDecimal(txtBy.Text);
+
+                resultNum = Math.Round(divNum / byNum);
+            }
+            catch (FormatException)
+            {
+                MessageBox.Show("Must be a numeric value", "Entry Error");
+                txtOrigTemp.Focus();
+            }
+            catch (DivideByZeroException)
+            {
+                MessageBox.Show("Cannot divide by 0", "Entry Error");
+            }
+
+            // Insert divided number into result field / prevent 0 if By is 0
+            if (resultNum != 0)
+            {
+                txtDivideResult.Text = resultNum.ToString();
+            }
+            else
+            {
+                txtDivideResult.Text = "";
+            }
+            
+            // Move cursor back to divide by fied
+            txtDivide.Focus();
+        }
     }
 }

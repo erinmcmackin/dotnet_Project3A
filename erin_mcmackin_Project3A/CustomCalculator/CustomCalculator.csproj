@@ -96,6 +96,9 @@
     <EmbeddedResource Include="frmMenu.resx">
       <DependentUpon>frmMenu.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmTemp.dje.resx">
+      <DependentUpon>frmTemp.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmTemp.resx">
       <DependentUpon>frmTemp.cs</DependentUpon>
     </EmbeddedResource>
