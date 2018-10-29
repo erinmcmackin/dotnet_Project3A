@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace erin_mcmackin_Project3A
+namespace CustomCalculator
 {
     static class Program
     {
@@ -16,7 +16,7 @@ namespace erin_mcmackin_Project3A
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new frmMenu());
         }
     }
 }

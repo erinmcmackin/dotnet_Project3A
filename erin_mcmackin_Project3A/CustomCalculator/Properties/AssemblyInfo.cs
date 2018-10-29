@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("erin_mcmackin_Project3A")]
+[assembly: AssemblyTitle("CustomCalculator")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("erin_mcmackin_Project3A")]
+[assembly: AssemblyProduct("CustomCalculator")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("9030ca21-0726-46d1-bad8-84608a3268d0")]
+[assembly: Guid("a2298d69-47a9-4732-aa37-98e839b31cde")]
 
 // Version information for an assembly consists of the following four values:
 //

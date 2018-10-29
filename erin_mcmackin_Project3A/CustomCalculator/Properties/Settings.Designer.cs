@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace erin_mcmackin_Project3A.Properties
+namespace CustomCalculator.Properties
 {
 
 
