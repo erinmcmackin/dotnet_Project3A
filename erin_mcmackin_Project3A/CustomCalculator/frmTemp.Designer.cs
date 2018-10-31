@@ -38,7 +38,6 @@
             this.radioFahr2 = new System.Windows.Forms.RadioButton();
             this.radioKel2 = new System.Windows.Forms.RadioButton();
             this.btnCalculate = new System.Windows.Forms.Button();
-            this.btnMenuReturn = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.txtConvTemp = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
@@ -136,24 +135,13 @@
             // 
             // btnCalculate
             // 
-            this.btnCalculate.Location = new System.Drawing.Point(75, 491);
+            this.btnCalculate.Location = new System.Drawing.Point(248, 470);
             this.btnCalculate.Name = "btnCalculate";
             this.btnCalculate.Size = new System.Drawing.Size(304, 71);
             this.btnCalculate.TabIndex = 6;
             this.btnCalculate.Text = "Calculate";
             this.btnCalculate.UseVisualStyleBackColor = true;
             this.btnCalculate.Click += new System.EventHandler(this.btnCalculate_Click);
-            // 
-            // btnMenuReturn
-            // 
-            this.btnMenuReturn.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btnMenuReturn.Location = new System.Drawing.Point(419, 491);
-            this.btnMenuReturn.Name = "btnMenuReturn";
-            this.btnMenuReturn.Size = new System.Drawing.Size(308, 71);
-            this.btnMenuReturn.TabIndex = 7;
-            this.btnMenuReturn.Text = "Menu";
-            this.btnMenuReturn.UseVisualStyleBackColor = true;
-            this.btnMenuReturn.Click += new System.EventHandler(this.btnMenuReturn_Click);
             // 
             // label4
             // 
@@ -272,7 +260,6 @@
             this.AcceptButton = this.btnCalculate;
             this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.CancelButton = this.btnMenuReturn;
             this.ClientSize = new System.Drawing.Size(805, 912);
             this.Controls.Add(this.btnDivide);
             this.Controls.Add(this.label6);
@@ -286,7 +273,6 @@
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.txtConvTemp);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.btnMenuReturn);
             this.Controls.Add(this.btnCalculate);
             this.Controls.Add(this.txtOrigTemp);
             this.Controls.Add(this.label1);
@@ -314,7 +300,6 @@
         private System.Windows.Forms.RadioButton radioFahr2;
         private System.Windows.Forms.RadioButton radioKel2;
         private System.Windows.Forms.Button btnCalculate;
-        private System.Windows.Forms.Button btnMenuReturn;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox txtConvTemp;
         private System.Windows.Forms.GroupBox groupBox1;
