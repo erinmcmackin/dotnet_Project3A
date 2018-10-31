@@ -46,64 +46,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="frmLinearCalc.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmLinearCalc.Designer.cs">
-      <DependentUpon>frmLinearCalc.cs</DependentUpon>
-    </Compile>
     <Compile Include="frmTemp.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmTemp.Designer.cs">
       <DependentUpon>frmTemp.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmAreaVolCalc.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmAreaVolCalc.Designer.cs">
-      <DependentUpon>frmAreaVolCalc.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmLinear.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmLinear.Designer.cs">
-      <DependentUpon>frmLinear.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmMenu.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmMenu.Designer.cs">
-      <DependentUpon>frmMenu.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmVolume.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmVolume.Designer.cs">
-      <DependentUpon>frmVolume.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="frmAreaVolCalc.resx">
-      <DependentUpon>frmAreaVolCalc.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmLinear.resx">
-      <DependentUpon>frmLinear.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmLinearCalc.resx">
-      <DependentUpon>frmLinearCalc.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmMenu.resx">
-      <DependentUpon>frmMenu.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="frmTemp.dje.resx">
       <DependentUpon>frmTemp.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmTemp.resx">
       <DependentUpon>frmTemp.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmVolume.resx">
-      <DependentUpon>frmVolume.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
